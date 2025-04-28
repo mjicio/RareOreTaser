@@ -1,0 +1,11 @@
+name: RareOreTaser
+version: '${project.version}'
+main: it.mjicio.rareoretaser.RareOreTaser
+api-version: '1.20'
+commands:
+  taser:
+    permission: taser.staff
+    description: Comandi per il taser
+  ricarica:
+    permission: taser.staff
+    description: Comandi per le ricariche
